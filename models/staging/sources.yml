@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw data for taxi rides"
+    database: dtc-de-course-487301 # project ID
+    schema: ng_test_dataset # dataset name
+    # the tables in data warehouse
+    tables:
+      - name: yellow_tripdata
+      - name: green_tripdata
