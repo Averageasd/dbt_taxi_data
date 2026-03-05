@@ -8,4 +8,11 @@ sources:
     # the tables in data warehouse
     tables:
       - name: yellow_tripdata
+        description: Raw yellow taxi trip data
+        columns:
+          - name: VendorID
+            description: A code indicating the provider associated with trip record
+            data_type: integer
+
       - name: green_tripdata
+        description: Raw green taxi trip data
